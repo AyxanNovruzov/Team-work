@@ -709,240 +709,229 @@
 
 
 /* Ayxan */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (min-width: 600px) and (max-width: 2100px) {
+
+    body {
+        font-family: "Roboto", sans-serif;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2 {
+        font-family: "Roboto Slab", serif;
+    }
+
+    /* Card hissəsi */
+    .card {
+        width: 26.18vw;
+        height: 21.466vw;
+        border-top-left-radius: 3.273vw;
+        border-top-right-radius: 3.273vw;
+        border-bottom-left-radius: 1.9634vw;
+        border-bottom-right-radius: 1.9634vw;
+        box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.25);
+
+    }
+
+    .card-head {
+        margin: 0 0 7.8552vw 3.273vw;
+        font-size: 3.6vw;
+    }
+
+    .card-img {
+        border-top-left-radius: 1.9634vw;
+        border-top-right-radius: 1.9634vw;
+        width: 100%;
+        height: 47.78%;
+    }
+
+    .card-h {
+        margin: 0.65445vw 0 0 1.3089vw;
+        font-size: 2.09vw;;
+        line-height: 97%;
+    }
+
+
+    .card-p {
+        font-size: 1.736vw;
+        margin: 2vw 0 0 1.3089vw;
+        line-height: 130%;
+    }
+
+    .card-last{
+        margin-top: 0.5vw;
+    }
+
+    .cards-everything {
+        margin: auto;
+        height: 100vh;
+        width: 90vw;
+    }
+
+
+    .all-cards {
+        height: 70vw;
+        column-gap: 2.09%;
+        row-gap: 4%;
+        display: grid;
+        grid-template-areas:
+            "a b c"
+            "d e f"
+            "g h ."
+        ;
+    }
+
+    .a {
+        grid-area: a;
+    }
+
+    .b {
+        grid-area: b;
+    }
+
+    .c {
+        grid-area: c;
+    }
+
+    .d {
+        grid-area: d;
+    }
+
+    .e {
+        grid-area: e;
+    }
+
+    .f {
+        grid-area: f;
+    }
+
+    .g {
+        grid-area: g;
+    }
+
+    .h {
+        grid-area: h;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    body {
+        font-family: "Roboto", sans-serif;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2 {
+        font-family: "Roboto Slab", serif;
+    }
+
+    /* Card hissəsi */
+    .card {
+        width: 49.55vw;
+        height: 40.74vw;
+        border-top-left-radius: 4vw;
+        border-top-right-radius: 4vw;
+        border-bottom-left-radius: 4vw;
+        border-bottom-right-radius: 4vw;
+        box-shadow: 0.1vw 0.1vw 2vw 0 rgba(0, 0, 0, 0.25);
+
+    }
+
+    .card-head {
+        margin: 0 0 13vw 3.7vw;
+        font-size: 6.93vw;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 47.78%;
+    }
+
+    .card-h {
+        margin: 1.4vw 0 0 2.49vw;
+        font-size: 3.732vw;
+        line-height: 97%;
+    }
+
+
+    .card-p {
+        font-size: 3.2vw;
+        margin: 5vw 0 0 2.35vw;
+        line-height: 130%;
+    }
+
+    .cards-everything {
+        margin: auto;
+        height: 100vh;
+        width: 90vw;
+    }
+
+    .card-last{
+        margin-top: 1.07vw
+    }
+
+    .all-cards {
+        height: 70vw;
+        row-gap: 6.4vw;
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+        ;
+    }
+
+    .a {
+        grid-area: a;
+    }
+
+    .b {
+        grid-area: b;
+    }
+
+    .c {
+        grid-area: c;
+    }
+
+    .d {
+        grid-area: d;
+    }
+
+    .e {
+        grid-area: e;
+    }
+
+    .f {
+        grid-area: f;
+    }
+
+    .g {
+        grid-area: g;
+    }
+
+    .h {
+        grid-area: h;
+    }
+
+}
 
 
 
