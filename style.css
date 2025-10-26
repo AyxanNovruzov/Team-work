@@ -138,336 +138,314 @@
 
 
 /* Sevgi 1 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.camera-all {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* padding: 5vw; */
+  width: 100%;
+  height: auto;
+}
+
+.camera-main1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.camera-txt {
+  width: 43vw;
+  font-size: 1.6vw;
+  font-weight: 330;
+  line-height: 150%;
+}
+
+.camera-txt2 {
+  padding-bottom: 2vw;
+}
+
+h1 {
+  font-size: 3.8vw;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 3vw;
+  /* padding-left: 121px; */
+  /* width: 365px; height: 93px; */
+}
+
+.camera-main1 img {
+  width: 23vw;
+  padding-top: 10vw;
+}
+
+.camera-bottom {
+  display: flex;
+  padding: 8vw;
+  /* justify-content: space-evenly; */
+}
+
+.camera-bottom img {
+  width: 15vw;
+}
+
+.camera-main2 {
+  display: flex;
+  align-items: center;
+  padding-left: 8vw;
+  gap: 4vw;
+}
+
+.camera-main2 p {
+  width: 10vw;
+  font-size: 1.2vw;
+  font-weight: 410;
+}
+
+span {
+  display: inline-block;
+  font-size: 1.7vw;
+  font-weight: 700;
+  padding-bottom: 1vw;
+}
+
+/* Media hissəsi komp üçün */
+@media screen and (min-width:1024px) and (max-width:2100px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .camera-all {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 5vw; */
+    width: 100%;
+    height: auto;
+  }
+
+  .camera-main1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .camera-txt {
+    width: 43vw;
+    font-size: 1.6vw;
+    font-weight: 330;
+    line-height: 150%;
+  }
+
+  .camera-txt2 {
+    padding-bottom: 2vw;
+  }
+
+  h1 {
+    font-size: 3.8vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+    /* width: 365px; height: 93px; */
+  }
+
+  .camera-main1 img {
+    width: 23vw;
+    padding-top: 10vw;
+  }
+
+
+
+
+  .camera-bottom {
+    display: flex;
+    padding: 8vw;
+    /* justify-content: space-evenly; */
+  }
+
+  .camera-bottom img {
+    width: 15vw;
+  }
+
+  .camera-main2 {
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    gap: 4vw;
+  }
+
+  .camera-main2 p {
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 1.7vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+
+
+
+
+}
+
+/* Media hissəsi planşet üçün */
+@media screen and (min-width:601px) and (max-width:1024px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .camera-all {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 5vw; */
+    width: 100%;
+    height: auto;
+  }
+
+  .camera-main1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .camera-txt {
+    width: 43vw;
+    font-size: 1.6vw;
+    font-weight: 330;
+    line-height: 150%;
+  }
+
+  .camera-txt2 {
+    padding-bottom: 2vw;
+  }
+
+  h1 {
+    font-size: 3.8vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+    /* width: 365px; height: 93px; */
+  }
+
+  .camera-main1 img {
+    width: 23vw;
+    padding-top: 10vw;
+  }
+
+
+
+
+  .camera-bottom {
+    display: flex;
+    padding: 8vw;
+    /* justify-content: space-evenly; */
+  }
+
+  .camera-bottom img {
+    width: 15vw;
+  }
+
+  .main2 {
+    display: flex;
+    align-items: center;
+    padding-left: 8vw;
+    gap: 4vw;
+  }
+
+  .camera-main2 p {
+    width: 10vw;
+    font-size: 1.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 1.7vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+}
+
+/* Media hissəsi telefon üçün */
+@media screen and (min-width:300px) and (max-width:600px) {
+  .camera-txt {
+    width: 74vw;
+    font-size: 3vw;
+    font-weight: 330;
+    line-height: 150%;
+
+  }
+
+  h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 3vw;
+    /* padding-left: 121px; */
+  }
+
+
+  .camera-main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around;  */
+    /* flex-wrap: wrap; */
+  }
+
+  .camera-main1 img {
+    width: 41vw;
+  }
+
+  .camera-bottom img {
+    display: none;
+  }
+
+  .camera-main2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* padding-left: 8vw; */
+    gap: 4vw;
+
+  }
+
+  .camera-main2 div:nth-child(3) {
+    flex-basis: 100%;
+
+  }
+
+  .camera-main2 p {
+    width: 18vw;
+    font-size: 2.2vw;
+    font-weight: 410;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 2.9vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+  }
+
+}
 /* İnci 1 */
 
 .all-h1 {
@@ -1915,305 +1893,361 @@ body{
 
 /* Sevgi 2 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foot-all {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;  
+    padding-top: 1vw; 
+   padding-left: 8vw;
+     padding-right: 7vw;  
+     padding-bottom: 6vw;    
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column; 
+    /* padding-left: 11rem; */
+    gap: 2vw;
+    padding-top: 2vw;
+}
+
+.foot-socialemb {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;  */
+    padding-top: 3vw;
+    /* width: 10vw; */
+    /* height: 20vw; */
+    gap: 1.2vw;
+}
+
+.foot-socialemb img {
+    /* margin-right: 1.5rem; */
+    width: 2.3vw;
+    /* height: 2.7rem; */
+}
+
+.foot-logo {
+    width: 8vw;
+    height: auto;
+    margin-bottom: -3vw;
+}
+
+.foot-sinxron {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5vw;
+    font-weight: 100;
+    /* font-family: "Roboto", sans-serif; */
+    line-height: 101%;
+    padding-top: 6vw;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: -12vw;  
+     /* padding-top: 1vw;      */
+}
+
+.foot-right img {
+    width: 1.8vw;
+    /* height: auto; */
+    margin-right: 1vw;
+    margin-bottom: -0.3vw; 
+}
+
+.foot-inform{
+    display: inline-block;
+    font-size: 1.6vw;
+    line-height: 1.2; 
+    font-weight: 370;
+}
+
+
+.foot-call {
+    /* padding-bottom: 8vw;   */
+
+}   
+/* Media hissəsi komp üçün */
+@media screen and (min-width:1024px) and (max-width:2100px) {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foot-all {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;  
+    padding-top: 1vw; 
+   padding-left: 8vw;
+     padding-right: 7vw;  
+     padding-bottom: 6vw;    
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column; 
+    /* padding-left: 11rem; */
+    gap: 2vw;
+    padding-top: 2vw;
+}
+
+.foot-socialemb {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;  */
+    padding-top: 3vw;
+    /* width: 10vw; */
+    /* height: 20vw; */
+    gap: 1.2vw;
+}
+
+.foot-socialemb img {
+    /* margin-right: 1.5rem; */
+    width: 2.3vw;
+    /* height: 2.7rem; */
+}
+
+.foot-logo {
+    width: 8vw;
+    height: auto;
+    margin-bottom: -3vw;
+}
+
+.foot-sinxron {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5vw;
+    font-weight: 100;
+    /* font-family: "Roboto", sans-serif; */
+    line-height: 101%;
+    padding-top: 6vw;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: -12vw;  
+     /* padding-top: 1vw;      */
+}
+
+.foot-right img {
+    width: 1.8vw;
+    /* height: auto; */
+    margin-right: 1vw;
+    margin-bottom: -0.3vw; 
+}
+
+.foot-inform{
+    display: inline-block;
+    font-size: 1.6vw;
+    line-height: 1.2; 
+    font-weight: 370;
+}
+
+
+.foot-call {
+    /* padding-bottom: 8vw;   */
+
+}   
+}
+/* Media hissəsi planşet üçün */
+@media screen and (min-width:601px) and (max-width:1024px) {
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foot-all {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;  
+    padding-top: 1vw; 
+   padding-left: 8vw;
+     padding-right: 7vw;  
+     padding-bottom: 6vw;    
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column; 
+    /* padding-left: 11rem; */
+    gap: 2vw;
+    padding-top: 2vw;
+}
+
+.foot-socialemb {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;  */
+    padding-top: 3vw;
+    /* width: 10vw; */
+    /* height: 20vw; */
+    gap: 1.2vw;
+}
+
+.foot-socialemb img {
+    /* margin-right: 1.5rem; */
+    width: 2.3vw;
+    /* height: 2.7rem; */
+}
+
+.foot-logo {
+    width: 8vw;
+    height: auto;
+    margin-bottom: -3vw;
+}
+
+.foot-sinxron {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5vw;
+    font-weight: 100;
+    /* font-family: "Roboto", sans-serif; */
+    line-height: 101%;
+    padding-top: 6vw;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: -12vw;  
+     /* padding-top: 1vw;      */
+}
+
+.foot-right img {
+    width: 1.8vw;
+    /* height: auto; */
+    margin-right: 1vw;
+    margin-bottom: -0.3vw; 
+}
+
+.foot-inform{
+    display: inline-block;
+    font-size: 1.6vw;
+    line-height: 1.2; 
+    font-weight: 370;
+}
+
+
+.foot-call {
+    /* padding-bottom: 8vw;   */
+
+}   
+}   
+
+/* Media hissəsi telefon üçün */
+@media screen and (min-width:300px) and (max-width:600px) { 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.foot-all {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    /* display: flex;  */
+    justify-content: space-between;  
+    padding-top: 1vw; 
+   padding-left: 8vw;
+     padding-right: 7vw;  
+     padding-bottom: 15vw;    
+}
+
+.foot-left {
+    display: flex;
+    flex-direction: column; 
+    /* padding-left: 11rem; */
+    gap: 2vw;
+    padding-top: 2vw;
+}
+
+.foot-socialemb {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;  */
+    padding-top: 3vw;
+    /* width: 10vw; */
+    /* height: 20vw; */
+    gap: 1.2vw;
+}
+
+.foot-socialemb img {
+    /* margin-right: 1.5rem; */
+    width: 2.3vw;
+    /* height: 2.7rem; */
+}
+
+.foot-logo {
+    width: 8vw;
+    height: auto;
+    margin-bottom: -3vw;
+}
+
+.foot-sinxron {
+    display: flex;
+    justify-content: end;
+    font-size: 1.5vw;
+    font-weight: 100;
+    /* font-family: "Roboto", sans-serif; */
+    line-height: 101%;
+    padding-top: 6vw;
+}
+
+.foot-right {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: -12vw;  
+     /* padding-top: 1vw;      */
+}
+
+.foot-right img {
+    width: 1.8vw;
+    /* height: auto; */
+    margin-right: 1vw;
+    margin-bottom: -0.3vw; 
+}
+
+.foot-inform {
+    display: inline-block;
+    font-size: 1.6vw;
+    line-height: 1.2; 
+    font-weight: 370;
+}
+
+
+.foot-call {
+    /* padding-bottom: 8vw;   */
+
+}  
+}}
 
 
 
