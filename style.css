@@ -470,220 +470,271 @@
 
 /* İnci 1 */
 
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-h1{
+.all-h1 {
     /* width:667px;
     height:93px; */
-    font-family:Roboto Slab;
+    font-family: Roboto Slab;
     font-size: 3vw;
     font-weight: 700;
-    color:#000000;
-    margin-left:5vw;
-    font-family:"Roboto Slab";
+    color: #000000;
+    margin-left: 5vw;
+    font-family: "Roboto Slab";
 }
-.all-new{
-    margin-top:5vw;
+
+.all-new {
+    margin-top: 5vw;
     margin-left: 5vw;
     justify-content: space-between;
     display: flex;
 }
-.all{
-    width:80vw;
-    gap:33%;
+
+.all {
+    width: 80vw;
+    gap: 33%;
     font-family: "Roboto";
 }
-.all-color{
+
+.all-color {
     color: #1E4681;
     font-weight: bold;
-    font-size:1.5vw;
+    font-size: 1.5vw;
 }
-.all-size{
+
+.all-size {
     margin-top: 8vw;
     font-family: "Roboto";
 }
-.all-table{
+
+.all-table {
     margin-left: 3.5vw;
-    font-size: 1,2vw;
+    font-size: 1, 2vw;
     padding-top: 3vw;
-   
+
 }
-#all-o{
-   margin-bottom: 0vw;
-   font-size:3vw;
+
+#all-o {
+    margin-left: 5vw;
+    font-family: "Roboto Slab";
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 0vw;
+    font-size: 3vw;
 }
-.all-pi{
-    font-size:1.2vw;
+
+.all-pi {
+    font-size: 1.2vw;
 }
-.all-i{
+
+.all-i {
     width: 75%;
     height: 100%;
 }
-.all-im{
+
+.all-im {
     padding: 0.5vw 3vw;
 }
 
 
 
 @media screen and (min-width:300px) and (max-width:600px) {
-    h1{
-    /* width:667px;
+    .all-h1 {
+        /* width:667px;
     height:93px; */
-    font-family:Roboto Slab;
-    font-size: 3vw;
-    font-weight: 700;
-    color:#000000;
-    margin-left:5vw;
-    font-family:"Roboto Slab";
-}
-.all-new{
-    margin-top: 5vw;
-    margin-left: 5vw;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-}
-.all{
-    width:80vw;
-    gap:33%;
-    font-family: "Roboto";
-}
-.all-color{
-    color: #1E4681;
-    font-weight: bold;
-    font-size:1.5vw;
-}
-.all-size{
-    margin-top: 8vw;
-    font-family: "Roboto";
-}
-.all-table{
-    /* margin-left: 3.5vw; */
-    font-size: 1vw;
-    /* padding-top: 3vw;
+        font-family: Roboto Slab;
+        font-size: 3vw;
+        font-weight: 700;
+        color: #000000;
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+    }
+
+    .all-new {
+        margin-top: 5vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all {
+        width: 80vw;
+        gap: 33%;
+        font-family: "Roboto";
+    }
+
+    .all-color {
+        color: #1E4681;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .all-size {
+        margin-top: 8vw;
+        font-family: "Roboto";
+    }
+
+    .all-table {
+        /* margin-left: 3.5vw; */
+        font-size: 1vw;
+        /* padding-top: 3vw;
     padding-left: 0vw; */
-    padding: 0vw;
-}
-#all-o{
-   margin-bottom: 0vw;
-   font-size:3vw;
-}
-.all-pi{
-    font-size:1.2vw;
-}
-.all-i{
-    width: 75%;
-    height: 100%;
-}
-.all-im{
-    padding:1vw 3vw;
-}
-}
-@media screen and (min-width:601px)  and (max-width:1024px){
-h1{
-    /* width:667px;
-    height:93px; */
-    font-family:Roboto Slab;
-    font-size: 3vw;
-    font-weight: 700;
-    color:#000000;
-    margin-left:5vw;
-    font-family:"Roboto Slab";
-}
-.all-new{
-    margin-top: 5vw;
-    margin-left: 5vw;
-    justify-content: space-between;
-    display: flex;
-}
-.all{
-    width:80vw;
-    gap:33%;
-    font-family: "Roboto";
-}
-.all-color{
-    color: #1E4681;
-    font-weight: bold;
-    font-size:1.5vw;
-}
-.all-size{
-    margin-top: 8vw;
-    font-family: "Roboto";
-}
-.all-table{
-    margin-left: 3.5vw;
-    font-size: 1vw;
-    padding-top: 3vw;
-   
-}
-#all-o{
-   margin-bottom: 0px;
-   font-size:3vw;
-}
-.all-pi{
-    font-size:1.2vw;
-}
-.all-i{
-    width: 75%;
-    height: 100%;
-}
-.all-im{
-    padding:0.5vw 3vw;
-}
-}
-@media screen and (min-width:1024px) and (max-width:2100px){
-h1{
-    /* width:667px;
-    height:93px; */
-    font-family:Roboto Slab;
-    font-size: 3vw;
-    font-weight: 700;
-    color:#000000;
-    margin-left:5vw;
-    font-family:"Roboto Slab";
-}
-.all-new{
-    margin-top: 5vw;
-    margin-left: 5vw;
-    justify-content: space-between;
-    display: flex;
-}
-.all{
-    width:80vw;
-    gap:33%;
-    font-family: "Roboto";
-}
-.all-color{
-    color: #1E4681;
-    font-weight: bold;
-    font-size:1.5vw;
-}
-.all-size{
-    margin-top: 8vw;
-    font-family: "Roboto";
-}
-.all-table{
-    margin-left: 3.5vw;
-    font-size: 1,2vw;
-    padding-top: 3vw;
-   
-}
-#all-o{
-   margin-bottom: 0vw;
-   font-size:3vw;
-}
-.all-pi{
-    font-size:1.2vw;
-}
-.all-i{
-    width: 75%;
-    height: 100%;
-}
-.all-im{
-    padding: 0.5vw 3vw;
-}
+        padding: 0vw;
+    }
+
+    #all-o {
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+        color: #000000;
+        font-weight: 700;
+        margin-bottom: 0vw;
+        font-size: 3vw;
+    }
+
+    .all-pi {
+        font-size: 1.2vw;
+    }
+
+    .all-i {
+        width: 75%;
+        height: 100%;
+    }
+
+    .all-im {
+        padding: 1vw 3vw;
+    }
 }
 
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .all-h1 {
+        /* width:667px;
+    height:93px; */
+        font-family: Roboto Slab;
+        font-size: 3vw;
+        font-weight: 700;
+        color: #000000;
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+    }
+
+    .all-new {
+        margin-top: 5vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .all {
+        width: 80vw;
+        gap: 33%;
+        font-family: "Roboto";
+    }
+
+    .all-color {
+        color: #1E4681;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .all-size {
+        margin-top: 8vw;
+        font-family: "Roboto";
+    }
+
+    .all-table {
+        margin-left: 3.5vw;
+        font-size: 1vw;
+        padding-top: 3vw;
+
+    }
+
+    #all-o {
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+        color: #000000;
+        font-weight: 700;
+        margin-bottom: 0px;
+        font-size: 3vw;
+    }
+
+    .all-pi {
+        font-size: 1.2vw;
+    }
+
+    .all-i {
+        width: 75%;
+        height: 100%;
+    }
+
+    .all-im {
+        padding: 0.5vw 3vw;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:2100px) {
+    .all-h1 {
+        /* width:667px;
+    height:93px; */
+        font-family: Roboto Slab;
+        font-size: 3vw;
+        font-weight: 700;
+        color: #000000;
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+    }
+
+    .all-new {
+        margin-top: 5vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .all {
+        width: 80vw;
+        gap: 33%;
+        font-family: "Roboto";
+    }
+
+    .all-color {
+        color: #1E4681;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .all-size {
+        margin-top: 8vw;
+        font-family: "Roboto";
+    }
+
+    .all-table {
+        margin-left: 3.5vw;
+        font-size: 1, 2vw;
+        padding-top: 3vw;
+
+    }
+
+    #all-o {
+        margin-left: 5vw;
+        font-family: "Roboto Slab";
+        color: #000000;
+        font-weight: 700;
+        margin-bottom: 0vw;
+        font-size: 3vw;
+    }
+
+    .all-pi {
+        font-size: 1.2vw;
+    }
+
+    .all-i {
+        width: 75%;
+        height: 100%;
+    }
+
+    .all-im {
+        padding: 0.5vw 3vw;
+    }
+}
 
 
 
