@@ -1,5 +1,123 @@
 /* Ramal 1 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .second-first{
+
+    font-family: 'Roboto slab ', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+.second-header {
+    width: 112px;
+    height: 66px;
+margin-top: 21px;
+margin-left: 122px;
+
+}
+
+
+.second-course {
+    display: flex;
+
+    align-items: center;
+    padding: 60px 115px;
+    
+}
+
+.second-course-text {
+    max-width: 628px;
+}
+
+.second-course-info {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second-course-info div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #333;
+}
+
+.second-title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 101.4%;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab';
+}
+
+.second-subtitle {
+    font-size: 20px;
+   line-height: 150%;
+}
+.second-course-image{
+margin-top: 75px;
+    margin-left: 80px;
+}
+.second-course-image img {
+    width: 304px;
+    height: 356px;
+    margin-left: 140px;
+}
+
+
+.second-quote-section {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 19.26px;
+    padding-right: 26.03px;
+}
+
+.second-quote-box {
+    background-color: #1c4a7e;
+    color: white;
+    border-radius: 6px;
+    max-width: 380px;
+    padding: 19.26px 27.02px 2px 26.03px;
+    width: 600px;
+    height: 180px;
+    margin-left: 435.42px;
+    margin-top: 50px;
+}
+
+.second-quote-text {
+    font-size: 25px;
+    line-height: 130%;
+    width: 430.59px;
+    height: 100px;
+   
+}
+
+.second-author {
+    font-size: 20px;
+    text-align: right;
+}   
+
+@media (max-width: 991px) {
+    .second-course {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second-course-image img {
+        margin-top: 30px;
+    }
+
+    .second-quote-section {
+        justify-content: center;
+    }
+}
 
 
 
@@ -949,7 +1067,235 @@
 
 
 /* Ramal 2 */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firstkurs {
+    width: 100vw;
+    min-height: 54.16vw; 
+    background-color: #EFEFEF;
+    height: 38.54vw; 
+    padding-left: 5.97vw;
+    padding-top: 3.95vw; 
+}
+
+.firstkurstext {
+    font-size: 3.96vw; 
+    font-weight: 550;
+    font-family: 'Roboto Slab', serif;
+}
+
+.firstkurs2 {
+    background-color: white;
+    width: 49.30vw; 
+    height: 29.86vw; 
+    margin-top: 2.99vw; 
+    box-shadow: 0px 0.21vw 0.97vw rgba(0, 0, 0, 0.50); 
+    border-radius: 2.5vw; 
+    padding-left: 2.99vw; 
+    padding-top: 2.99vw; 
+    
+    padding-right: 1.46vw; 
+}
+
+.firstimg1 {
+    width: 12.5vw; 
+    height: 12.5vw; 
+}
+
+.firsttext01 {
+    padding: 0;
+    font-size: 1.39vw; 
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 150%; 
+    letter-spacing: 0%;
+}
+
+.firstfacebook {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5vw; 
+}
+
+.firsttext02 {
+    width: 24.65vw; 
+    height: 2.92vw; 
+    font-size: 1.94vw;
+    font-style: bold;
+    font-weight: 800;
+    margin-left: 1.46vw; 
+    font-family: 'Roboto Slab';
+}
+
+.firstimg2 {
+    width: 2.5vw; 
+    height: 2.01vw; 
+    margin-left: 1.46vw; 
+    margin-top: 0.97vw; 
+}    
+ @media (min-width: 992px) and (max-width: 1279px) {
+  
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firstkurs {
+    width: 100vw;                
+    height: 54.18vw;               
+    background-color: #EFEFEF;
+    padding-left: 8.47vw;          
+    padding-top: 6.32vw;         
+}
+
+.firstkurstext {
+    width: 68.55vw;               
+    height: 6.46vw;               
+    font-size: 3.83vw;             
+    font-weight: 550;
+    font-family: 'Roboto Slab', serif;
+}
+
+.firstkurs2 {
+    background-color: white;
+    width: 48vw;                
+    height: 31.32vw;               
+    margin-top: 2.36vw;            
+    box-shadow: 0px 0.21vw 0.97vw rgba(0, 0, 0, 0.50); 
+    border-radius: 2.5vw; 
+    padding-left: 3.12vw;         
+    padding-top: 2.78vw;           
+    padding-right: 3.19vw;         
+}
+
+.firstimg1 {
+    width: 13.19vw;               
+    height: 11.73vw;              
+}
+
+.firsttext01 {
+    width: 48.59vw;                
+    height: 14.09vw;               
+    padding: 0;
+    font-size: 1.44vw;             
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.firstfacebook {
+    display: flex;
+    align-items: center;
+    margin-top: 0.73vw;           
+}
+
+.firsttext02 {
+    width: 24.51vw;                
+    height: 4.09vw;              
+    font-size: 2.04vw;          
+    font-style: bold;
+    font-weight: 800;
+    margin-left: 2.03vw;          
+    font-family: 'Roboto Slab';
+}
+
+.firstimg2 {
+    width: 2.22vw;                 
+    height: 2.15vw;                
+    margin-left: 2.08vw;          
+} 
+}
+
+
+@media (max-width: 991px) {
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.firstkurs {
+    width: 100vw;                 
+    height: 112.5vw;             
+    background-color: #EFEFEF;
+    padding-left: 9.57vw;        
+    padding-top: 7.45vw;         
+}
+
+.firstkurstext {
+    width: 68.35vw;              
+    height: 18.35vw;           
+    font-size: 6.91vw;           
+    font-weight: 550;
+    font-family: 'Roboto Slab', serif;
+}
+
+.firstkurs2 {
+    background-color: white;
+    width: 71.8vw;                
+    height: 65.96vw;            
+    margin-top: 2.93vw;           
+    box-shadow: 0px 0.21vw 0.97vw rgba(0, 0, 0, 0.50); 
+    border-radius: 2.5vw;
+    padding-left: 5.05vw;        
+    padding-top: 4.91vw;       
+    padding-right: 6.12vw;      
+}
+
+.firstimg1 {
+    width: 21.28vw;             
+    height: 22.34vw;            
+}
+
+.firsttext01 {
+    width: 70.74vw;             
+    height: 29.54vw;            
+    padding: 0;
+    font-size: 2.66vw;      
+    font-style: bold;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.firstfacebook {
+    display: flex;
+    align-items: center;
+    margin-top: 5.6vw;            
+}
+
+.firsttext02 {
+    width: 43.75vw;               
+    height: 8.7vw;                
+    font-size: 3.72vw;           
+    font-style: bold;
+    font-weight: 800;
+    margin-left: 3.62vw;          
+    font-family: 'Roboto Slab';
+}
+
+.firstimg2 {
+    width: 3.97vw;               
+    height: 4.57vw;              
+    margin-left: 3.62vw;          
+} 
+} 
 
 
 
