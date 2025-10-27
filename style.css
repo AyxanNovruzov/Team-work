@@ -2,155 +2,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 @media screen and (min-width: 1024px) and (max-width: 2100px) {
-    .second-first{
-
-    font-family: 'Roboto slab ', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #000;
-    background-color: #fff;
+.second-first {
+  font-family: 'Roboto Slab', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #fff;
 }
 
-
-
+/* HEADER */
 .second-header {
-    width: 112px;
-    height: 66px;
-margin-top: 21px;
-margin-left: 122px;
-
+  width: 8vw;
+  height: auto;
+  margin-top: 2vh;
+  margin-left: 8vw;
 }
 
-
+/* COURSE SECTION */
 .second-course {
-    display: flex;
-
-    align-items: center;
-    padding: 60px 115px;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vw 8vw;
+  flex-wrap: wrap;
 }
 
 .second-course-text {
-    max-width: 628px;
+  max-width: 45vw;
+  min-width: 280px;
 }
 
 .second-course-info {
-    display: flex;
-    gap: 30px;
-    font-size: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 2vw;
+  font-size: 1.3vw;
+  margin-bottom: 2vh;
+  flex-wrap: wrap;
 }
 
 .second-course-info div {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+  color: #333;
 }
 
 .second-title {
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 101.4%;
-    margin-bottom: 20px;
-    font-family: 'Roboto Slab';
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 2vh;
+  font-family: 'Roboto Slab';
 }
 
 .second-subtitle {
-    font-size: 20px;
-   line-height: 150%;
+  font-size: 1.3vw;
+  line-height: 1.5;
 }
-.second-course-image{
-margin-top: 75px;
-    margin-left: 80px;
+
+.second-course-image {
+  margin-top: 5vh;
+  margin-left: 5vw;
 }
+
 .second-course-image img {
-    width: 304px;
-    height: 356px;
-    margin-left: 140px;
+  width: 21vw;
+  height: auto;
+  margin-left: 10vw;
+  max-width: 100%;
 }
 
- .block2 {
-    border-radius: 0.328vw;
-    width: 31.651vw;
-    height: 13.1vw;
-    font-family: "Roboto Slab", serif;
-    margin-top: 5.37vw;
-    margin-left: 26.792vw;
-    background-color: #1E4681;
-    color: white;
+/* QUOTE SECTION */
+.second-quote-section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2vh 3vw;
 }
 
-.yazi1 {
-    padding-top: 1.2604vw;
-    padding-right: 1.7683vw;
-    padding-left: 1.7035vw;
-    margin: 0;
-    font-size: 1.6361vw;
+.second-quote-box {
+  background-color: #1c4a7e;
+  color: white;
+  border-radius: 10px;
+  max-width: 35vw;
+  padding: 2vh 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 80%;
+  height: auto;
 }
 
-.yazi2 {
-    font-weight: 400;
-    margin: 0;
-    font-size: 1.3089vw;
-    margin: 0.3272vw 0 0 17.015vw;
-}
+.second-quote-text {
+  font-size: 1.5vw;
+  line-height: 1.3;
+  width: 100%;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-.block2 {
-    border-radius: 0.5vw;
-    width: 37.649vw;
-    height: 15.4vw;
-    font-family: "Roboto Slab", serif;
-    margin-top: 5.37vw;
-    margin-left: 26.792vw;
-    background-color: #1E4681;
-    color: white;
-} 
+.second-author {
+  font-size: 1.2vw;
+  text-align: right;
+}
+}
+/* RESPONSIVE */
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .second-course {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.yazi1 {
-    padding-top: 1.2604vw;
-    padding-right: 1.7683vw;
-    padding-left: 1.7035vw;
-    margin: 0;
-    font-size: 1.6361vw;
-}
+  .second-title {
+    font-size: 7vw;
+  }
 
-.yazi2 {
-    font-weight: 400;
-    margin: 0;
-    font-size: 1.3089vw;
-    margin: 0.3272vw 0 0 17.015vw;
-}
-}
-@media screen and (min-width: 300px) and (max-width: 600px) {
-.block2 {
-    border-radius: 0.328vw;
-    width: 59.968vw;
-    height: 24.832vw;
-    font-family: "Roboto Slab", serif;
-    margin-top: 5.37vw;
-    margin-left: 26.792vw;
-    background-color: #1E4681;
-    color: white;
-}
-    
+  .second-subtitle {
+    font-size: 3.5vw;
+  }
 
-.yazi1 {
-    padding-top: 1.2604vw;
-    padding-right: 1.7683vw;
-    padding-left: 1.7035vw;
-    margin: 0;
-    font-size: 2.9317vw;
-}
-.yazi2 {
-    font-weight: 400;
-    margin: 0;
-    font-size: 2.6652vw;
-    margin: 0.3272vw 0 0 28vw;
-}
+  .second-course-info {
+    font-size: 3.5vw;
+    justify-content: center;
+  }
+
+  .second-course-image img {
+    margin: 5vh auto;
+    width: 50vw;
+  }
+
+  .second-quote-box {
+    max-width: 90%;
+    font-size: 3.5vw;
+  }
+
+  .second-quote-text {
+    font-size: 3.5vw;
+  }
+
+  .second-author {
+    font-size: 3vw;
+  }
 }
 
 
