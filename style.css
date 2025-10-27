@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@media screen and (min-width: 1024px) and (max-width: 2100px) {
     .second-first{
 
     font-family: 'Roboto slab ', sans-serif;
@@ -71,61 +71,86 @@ margin-top: 75px;
     margin-left: 140px;
 }
 
-
-.second-quote-section {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 19.26px;
-    padding-right: 26.03px;
-}
-
-.second-quote-box {
-    background-color: #1c4a7e;
+ .block2 {
+    border-radius: 0.328vw;
+    width: 31.651vw;
+    height: 13.1vw;
+    font-family: "Roboto Slab", serif;
+    margin-top: 5.37vw;
+    margin-left: 26.792vw;
+    background-color: #1E4681;
     color: white;
-    border-radius: 6px;
-    max-width: 380px;
-    padding: 19.26px 27.02px 2px 26.03px;
-    width: 600px;
-    height: 180px;
-    margin-left: 435.42px;
-    margin-top: 50px;
 }
 
-.second-quote-text {
-    font-size: 25px;
-    line-height: 130%;
-    width: 430.59px;
-    height: 100px;
-   
+.yazi1 {
+    padding-top: 1.2604vw;
+    padding-right: 1.7683vw;
+    padding-left: 1.7035vw;
+    margin: 0;
+    font-size: 1.6361vw;
 }
 
-.second-author {
-    font-size: 20px;
-    text-align: right;
-}   
-
-@media (max-width: 991px) {
-    .second-course {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .second-course-image img {
-        margin-top: 30px;
-    }
-
-    .second-quote-section {
-        justify-content: center;
-    }
+.yazi2 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.3089vw;
+    margin: 0.3272vw 0 0 17.015vw;
+}
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+.block2 {
+    border-radius: 0.5vw;
+    width: 37.649vw;
+    height: 15.4vw;
+    font-family: "Roboto Slab", serif;
+    margin-top: 5.37vw;
+    margin-left: 26.792vw;
+    background-color: #1E4681;
+    color: white;
+} 
 
+.yazi1 {
+    padding-top: 1.2604vw;
+    padding-right: 1.7683vw;
+    padding-left: 1.7035vw;
+    margin: 0;
+    font-size: 1.6361vw;
+}
 
+.yazi2 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.3089vw;
+    margin: 0.3272vw 0 0 17.015vw;
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.block2 {
+    border-radius: 0.328vw;
+    width: 59.968vw;
+    height: 24.832vw;
+    font-family: "Roboto Slab", serif;
+    margin-top: 5.37vw;
+    margin-left: 26.792vw;
+    background-color: #1E4681;
+    color: white;
+}
+    
 
+.yazi1 {
+    padding-top: 1.2604vw;
+    padding-right: 1.7683vw;
+    padding-left: 1.7035vw;
+    margin: 0;
+    font-size: 2.9317vw;
 
-
-
-
+.yazi2 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.6652vw;
+    margin: 0.3272vw 0 0 28vw;
+}
+}
 
 
 
@@ -593,7 +618,7 @@ span {
 .all-color {
     color: #1E4681;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.73vw;
 }
 
 .all-size {
@@ -614,11 +639,11 @@ span {
     color: #000000;
     font-weight: 700;
     margin-bottom: 0vw;
-    font-size: 3vw;
+    font-size: 3.81vw;
 }
 
 .all-pi {
-    font-size: 1.2vw;
+    font-size: 1.25vw;
 }
 
 .all-i {
@@ -630,7 +655,9 @@ span {
     padding: 0.5vw 3vw;
 }
 
-
+.all-li{
+font-size: 1.66vw;
+}
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .all-h1 {
@@ -728,7 +755,7 @@ span {
     .all-color {
         color: #1E4681;
         font-weight: bold;
-        font-size: 1.5vw;
+        font-size: 1.73vw;
     }
 
     .all-size {
@@ -749,11 +776,11 @@ span {
         color: #000000;
         font-weight: 700;
         margin-bottom: 0px;
-        font-size: 3vw;
+        font-size: 3.81vw;
     }
 
     .all-pi {
-        font-size: 1.2vw;
+        font-size: 1.25vw;
     }
 
     .all-i {
@@ -764,7 +791,11 @@ span {
     .all-im {
         padding: 0.5vw 3vw;
     }
+
+.all-li{
+    font-size: 1.66vw;
 }
+    
 
 @media screen and (min-width:1024px) and (max-width:2100px) {
     .all-h1 {
@@ -794,7 +825,7 @@ span {
     .all-color {
         color: #1E4681;
         font-weight: bold;
-        font-size: 1.5vw;
+        font-size: 1.73vw;
     }
 
     .all-size {
@@ -815,11 +846,11 @@ span {
         color: #000000;
         font-weight: 700;
         margin-bottom: 0vw;
-        font-size: 3vw;
+        font-size: 3.81vw;
     }
 
     .all-pi {
-        font-size: 1.2vw;
+        font-size: 1.25vw;
     }
 
     .all-i {
@@ -830,6 +861,10 @@ span {
     .all-im {
         padding: 0.5vw 3vw;
     }
+.all-li{
+    font-size: 1.66vw;
+}
+    
 }
 
 
