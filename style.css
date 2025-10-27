@@ -124,6 +124,7 @@ margin-top: 75px;
     font-size: 1.3089vw;
     margin: 0.3272vw 0 0 17.015vw;
 }
+}
 @media screen and (min-width: 300px) and (max-width: 600px) {
 .block2 {
     border-radius: 0.328vw;
@@ -143,7 +144,7 @@ margin-top: 75px;
     padding-left: 1.7035vw;
     margin: 0;
     font-size: 2.9317vw;
-
+}
 .yazi2 {
     font-weight: 400;
     margin: 0;
@@ -628,7 +629,7 @@ span {
 
 .all-table {
     margin-left: 3.5vw;
-    font-size: 1, 2vw;
+    font-size: 1.2vw;
     padding-top: 3vw;
 
 }
@@ -795,7 +796,7 @@ font-size: 1.66vw;
 .all-li{
     font-size: 1.66vw;
 }
-    
+}   
 
 @media screen and (min-width:1024px) and (max-width:2100px) {
     .all-h1 {
@@ -835,7 +836,7 @@ font-size: 1.66vw;
 
     .all-table {
         margin-left: 3.5vw;
-        font-size: 1, 2vw;
+        font-size: 1.2vw;
         padding-top: 3vw;
 
     }
@@ -1401,7 +1402,7 @@ font-size: 1.66vw;
     margin-left: 1.46vw; 
     margin-top: 0.97vw; 
 }    
- @media (min-width: 992px) and (max-width: 1279px) {
+ @media (min-width: 600px) and (max-width: 2100px) {
   
 
 
@@ -1479,7 +1480,7 @@ font-size: 1.66vw;
 }
 
 
-@media (max-width: 991px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
 
 
 
@@ -2633,164 +2634,4 @@ body{
     padding-bottom: 1px;  
 
 }  
-}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
