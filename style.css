@@ -1903,9 +1903,6 @@ body{
 .enter-lim {
         font-size: 2vw;
 }    
-.enter-l {
-    font-size: 2.5vw;
-}
 #enter-pim{ 
     /* width:908px;
     height: 66px; */
@@ -1964,6 +1961,10 @@ body{
 
 .enter-l {
         font-size: 2.5vw;
+}
+
+.enter-lim {
+    font-size: 2vw;
 }
 #enter-pim{ 
     /* width:908px;
