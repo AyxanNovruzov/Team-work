@@ -1837,8 +1837,8 @@ body{
 .enter{
     background-color: #9DC9C8;
     width: 100vw;
-    height: 45vw;
-    padding: 8vw;
+    height: 70vw;
+    padding: 14vw 8vw;
 
 } 
 #enter-pim{ 
@@ -1895,10 +1895,17 @@ body{
 .enter{
     background-color: #9DC9C8;
     width: 100vw;
-    height: 55vw;
-    padding: 11vw;
+    height: 70vw;
+    padding: 14vw 10vw;
 
 } 
+
+.enter-lim {
+        font-size: 2vw;
+}    
+.enter-l {
+    font-size: 2.5vw;
+}
 #enter-pim{ 
     /* width:908px;
     height: 66px; */
@@ -1951,9 +1958,13 @@ body{
 .enter{
     background-color: #9DC9C8;
     width: 100vw;
-    height: 70vw;
-    padding: 12vw;
+    height: 60vw;
+    padding: 14vw 8vw;
 } 
+
+.enter-l {
+        font-size: 2.5vw;
+}
 #enter-pim{ 
     /* width:908px;
     height: 66px; */
